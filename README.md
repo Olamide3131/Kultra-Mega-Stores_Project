@@ -28,10 +28,15 @@ This project aims to generate insights into sales performance of the organizatio
 
 ## Data Analysis
 Data Analysis & Case scenarios & Answers
-1. Which product category had the highest sales?
+   ### 1. Which product category had the highest sales?
+``` SQL
 SELECT TOP 1 Product_Category, SUM (Sales)
 As total_sales
 FROM [dbo].[KMS SQL Case Study]
 GROUP BY product_category
 ORDER BY Total_Sales DESC
+
+
+
+
 
