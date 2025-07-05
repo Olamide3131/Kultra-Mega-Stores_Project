@@ -39,6 +39,6 @@ ORDER BY Total_Sales DESC
 
 ![image alt](https://github.com/Olamide3131/Kultra-Mega-Stores_Project/blob/main/Question%201.png?raw=true)
 
-
+<img width="976" height="280" alt="Image" src="https://github.com/user-attachments/assets/ef01e0ca-a618-43cf-afeb-e74f8c8faf2e" />
 
 
