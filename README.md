@@ -37,7 +37,7 @@ GROUP BY product_category
 ORDER BY Total_Sales DESC
 
 
-
+![image alt](https://github.com/Olamide3131/Kultra-Mega-Stores_Project/blob/main/Question%201.png?raw=true)
 
 
 
