@@ -35,8 +35,7 @@ As total_sales
 FROM [dbo].[KMS SQL Case Study]
 GROUP BY product_category
 ORDER BY Total_Sales DESC
-
-  ### 2.	What are the Top 3 and Bottom 3 regions in terms of sales?
+  ### What are the Top 3 and Bottom 3 regions in terms of sales?
 ``` SQL
 SELECT TOP 3 REGION, SUM(Sales)
 As total_sales
@@ -50,14 +49,14 @@ FROM [dbo].[KMS SQL Case Study]
 GROUP BY REGION
 ORDER BY Total_Sales ASC
 
- ### 3.	What were the total sales of appliances in Ontario?
+   ### 3.	What were the total sales of appliances in Ontario?
 ``` SQL
 SELECT SUM(SALES) AS Total_Sales 
 FROM [dbo].[KMS SQL Case Study]
 WHERE Product_Sub_Category = 'Appliances'
 AND Region = 'Ontario'
 
- ### 4.	Advise the management of KMS on what to do to increase the revenue from the 10 customers
+   ### 4.	Advise the management of KMS on what to do to increase the revenue from the 10 customers
 ``` SQL
 SELECT TOP 10 Customer_Name, 
 SUM(Sales) AS Lowest_Customer_Sales, 
@@ -69,7 +68,7 @@ FROM [dbo].[KMS SQL Case Study]
 GROUP BY Customer_Name
 ORDER BY Lowest_Customer_Sales ASC
     
- ### 5.	KMS incurred the most shipping cost using which shipping method?
+   ### 5.	KMS incurred the most shipping cost using which shipping method?
 ``` SQL
 SELECT TOP 1 Ship_Mode, COUNT(Shipping_Cost) AS Highest_Shipping_Cost
 FROM [dbo].[KMS SQL Case Study]
